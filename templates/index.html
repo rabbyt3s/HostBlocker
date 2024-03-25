@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HostBlocker</title>
+    <link rel="stylesheet" href="static/style.css">
+    <script src="static/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>HostBlocker</h1>
+            <nav>
+            </nav>
+        </header>
+
+        <main>
+            <section class="search-bar">
+                <input type="text" id="search-input" placeholder="Search hosts...">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
+            </section>
+
+            <section class="hosts-list">
+                <div class="pagination">
+                    <button id="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <span id="current-page">1</span> / <span id="total-pages">1</span>
+                    <button id="next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <ul id="hosts-container"></ul>
+            </section>
+
+            <section class="actions">
+                <button id="block-btn"><i class="fas fa-ban"></i> Block Selected</button>
+                <button id="unblock-btn"><i class="fas fa-check-circle"></i> Unblock Selected</button>
+                <button id="select-all-btn"><i class="fas fa-check-square"></i> Select All</button>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; th3k3y</p>
+        </footer>
+    </div>
+
+    <div id="loading-overlay">
+        <div class="loader"></div>
+    </div>
+
+    <div id="success-popup">
+        <div class="popup-content">
+            <i class="fas fa-check-circle"></i>
+            <p></p>
+        </div>
+    </div>
+</body>
+</html>
