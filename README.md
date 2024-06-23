@@ -1,5 +1,9 @@
+
 # HostBlocker
 HostBlocker is a Python application that allows you to block and unblock hosts by modifying the Windows hosts file.
+
+![image](https://github.com/th3k3y/HostBlocker/assets/49789253/4c682283-85cf-4779-ab2b-6bedd59fff08)
+
 
 Voici le README en anglais et en français pour votre code, ainsi qu'une description détaillée :
 
